@@ -7,10 +7,10 @@ import com.alibaba.fastjson.JSONObject
  * Created by yuxingdong on 2020/11/21.
  *
  *
- * 1、point中hasCurveFrom为true，则curveFrom的点为贝塞尔曲线起点，
+ * 1、当hasCurveFrom为true时，则curveFrom的点为贝塞尔曲线起点，
  * 控制点为下一个点的curveTo，终点为下一个点的point。
- * 2、hasCurveFrom为false，L到该点（线段）
- * point中的点坐标转为svg的坐标公式：
+ * 2、当hasCurveFrom为false时，L到该点（线段）
+ * 3、point中的点坐标转为svg的坐标公式：
  * xsvg = frame.x + xlayer * frame.width
  * ysvg = frame.y + ylayer * frame.height
  *
