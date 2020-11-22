@@ -1,0 +1,2 @@
+# SketchSVG
+将Sketch中icon的json数据解析成svg中的path
